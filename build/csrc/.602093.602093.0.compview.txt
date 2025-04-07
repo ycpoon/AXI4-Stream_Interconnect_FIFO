@@ -1,7 +1,0 @@
-Command exited with non-zero status 255
-{"vcs1":{"timestamp_begin":1744003169.723724859, "rt":0.62, "ut":0.07, "st":0.05}}
-{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1744003168.940980099}
-{"VCS_COMP_START_TIME": 1744003168.940980099}
-{"VCS_COMP_END_TIME": 1744003170.414513342}
-{"VCS_USER_OPTIONS": "-sverilog -xprop=tmerge +vc -Mupdate -Mdir=build/csrc -line -full64 -kdb -lca -nc -debug_access+all+reverse +warn=noTFIPC +warn=noDEBUG_DEP +warn=noENUMASSIGN +warn=noLCA_FEATURES_ENABLED +define+CLOCK_PERIOD=10.0 +define+DEPTH=16 +define+WIDTH=32 +define+MAX_CNT=3 axi_stream_interconnect_tb.sv axi_stream_interconnect.sv encoder.sv psel_gen.sv FIFO.sv memDP.sv -o build/simv"}
-{"vcs1": {"peak_mem": 558280}}

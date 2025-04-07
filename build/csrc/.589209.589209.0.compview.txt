@@ -1,9 +1,0 @@
-{"vcs1":{"timestamp_begin":1744001860.898335356, "rt":1.73, "ut":0.24, "st":0.23}}
-{"vcselab":{"timestamp_begin":1744001862.682777033, "rt":0.79, "ut":0.19, "st":0.09}}
-{"link":{"timestamp_begin":1744001863.521838802, "rt":0.62, "ut":0.15, "st":0.09}}
-{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1744001860.200853303}
-{"VCS_COMP_START_TIME": 1744001860.200853303}
-{"VCS_COMP_END_TIME": 1744001864.592097340}
-{"VCS_USER_OPTIONS": "-sverilog -xprop=tmerge +vc -Mupdate -Mdir=build/csrc -line -full64 -kdb -lca -nc -debug_access+all+reverse +warn=noTFIPC +warn=noDEBUG_DEP +warn=noENUMASSIGN +warn=noLCA_FEATURES_ENABLED +define+CLOCK_PERIOD=10.0 +define+DEPTH=16 +define+WIDTH=32 +define+MAX_CNT=3 axi_stream_interconnect_tb.sv axi_stream_interconnect.sv encoder.sv psel_gen.sv FIFO.sv memDP.sv -o build/simv"}
-{"vcs1": {"peak_mem": 558920}}
-{"vcselab": {"peak_mem": 260700}}

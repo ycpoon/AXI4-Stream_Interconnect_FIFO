@@ -1,6 +1,0 @@
-FIFO.sv
-axi_stream_interconnect.sv
-axi_stream_interconnect_tb.sv
-encoder.sv
-memDP.sv
-psel_gen.sv
