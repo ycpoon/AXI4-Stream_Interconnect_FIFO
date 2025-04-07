@@ -10,7 +10,7 @@ Features:
 - Parameterizable number of master and slave connections
 - TDEST decoding for master to slave connections
 - FIFO buffer for each slave port connections
-- Round Robin Arbitration to determine priority if multiple master is writing to a slave in one cycle
+- MSB-LSB Alternating Arbitration scheme to determine priority if multiple master is writing to a slave in one cycle
 
 ## Testing
 Currently Still in Progress
