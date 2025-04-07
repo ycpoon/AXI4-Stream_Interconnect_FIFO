@@ -1,0 +1,47 @@
+Info: [VCS_SAVE_RESTORE_INFO] ASLR (Address Space Layout Randomization) is detected on the machine. To enable $save functionality, ASLR will be switched off and simv re-executed.
+Please use '-no_save' simv switch to avoid re-execution or '-suppress=ASLR_DETECTED_INFO' to suppress this message.
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version V-2023.12-SP2-1_Full64; Runtime version V-2023.12-SP2-1_Full64;  Apr  7 01:32 2025
+Slave 2 received: data = a5a5, tdest = 8, tid = 1, tuser = 3, tlast = 1
+Test 1
+Slave           0 received: data = 36c9, tdest = 0, tid = 2, tuser = 3, tlast = 1
+Slave           1 received: data = 29a4, tdest = 4, tid = 0, tuser = 0, tlast = 1
+Slave           3 received: data = 65c7, tdest = c, tid = 1, tuser = 0, tlast = 1
+Slave           3 received: data = 2a4a, tdest = c, tid = 2, tuser = 2, tlast = 1
+Slave           1 received: data = 5e2c, tdest = 4, tid = 0, tuser = 3, tlast = 1
+Slave           3 received: data = 6e66, tdest = c, tid = 0, tuser = 2, tlast = 1
+Slave           1 received: data = 5515, tdest = 4, tid = 2, tuser = 0, tlast = 1
+Slave           2 received: data = 603c, tdest = 8, tid = 0, tuser = 3, tlast = 1
+Slave           1 received: data = 431a, tdest = 4, tid = 0, tuser = 3, tlast = 1
+Slave           2 received: data = 7acf, tdest = 8, tid = 0, tuser = 2, tlast = 1
+Test 2
+Slave           1 received: data = 0000, tdest = 0, tid = 0, tuser = 0, tlast = 0
+Slave           1 received: data = 0001, tdest = 4, tid = 3, tuser = 2, tlast = 1
+Slave           1 received: data = 0002, tdest = 4, tid = 0, tuser = 2, tlast = 1
+Slave           1 received: data = 0003, tdest = 4, tid = 0, tuser = 3, tlast = 1
+Slave           3 received: data = 0000, tdest = 0, tid = 0, tuser = 0, tlast = 0
+Slave           3 received: data = 0001, tdest = c, tid = 3, tuser = 1, tlast = 1
+Slave           3 received: data = 0002, tdest = c, tid = 1, tuser = 0, tlast = 1
+Slave           3 received: data = 0003, tdest = c, tid = 2, tuser = 2, tlast = 1
+Slave           0 received: data = 0000, tdest = 0, tid = 0, tuser = 0, tlast = 0
+Slave           0 received: data = 0001, tdest = 0, tid = 1, tuser = 3, tlast = 1
+Slave           0 received: data = 0002, tdest = 0, tid = 1, tuser = 2, tlast = 1
+Slave           0 received: data = 0003, tdest = 0, tid = 3, tuser = 2, tlast = 1
+Slave           3 received: data = 0000, tdest = 0, tid = 0, tuser = 0, tlast = 0
+Slave           3 received: data = 0001, tdest = c, tid = 2, tuser = 0, tlast = 1
+Slave           3 received: data = 0002, tdest = c, tid = 2, tuser = 3, tlast = 1
+Slave           3 received: data = 0003, tdest = c, tid = 1, tuser = 3, tlast = 1
+Slave           2 received: data = 0000, tdest = 0, tid = 0, tuser = 0, tlast = 0
+Slave           2 received: data = 0001, tdest = 8, tid = 3, tuser = 1, tlast = 1
+Slave           2 received: data = 0002, tdest = 8, tid = 2, tuser = 0, tlast = 1
+Slave           2 received: data = 0003, tdest = 8, tid = 2, tuser = 2, tlast = 1
+
+[32m@@@ Passed[0m
+
+$finish called from file "axi_stream_interconnect_tb.sv", line 162.
+$finish at simulation time                  820
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 820
+CPU Time:      0.250 seconds;       Data structure size:   0.0Mb
+Mon Apr  7 01:32:20 2025

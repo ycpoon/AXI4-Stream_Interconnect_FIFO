@@ -1,0 +1,6 @@
+/home/ycpoon/EECS470/axi/FIFO.sv
+/home/ycpoon/EECS470/axi/axi_stream_interconnect.sv
+/home/ycpoon/EECS470/axi/axi_stream_interconnect_tb.sv
+/home/ycpoon/EECS470/axi/encoder.sv
+/home/ycpoon/EECS470/axi/memDP.sv
+/home/ycpoon/EECS470/axi/psel_gen.sv

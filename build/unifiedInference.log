@@ -1,0 +1,12 @@
+FIFO.sv:113 YES:SyncFF
+memDP.sv:68 YES:SyncFF
+==================================================
+Unified Inference Statistics
+Number of always_ff:                   2
+Number of always_latch:                0
+Number of always @*:                   1
+Number of always_comb :                7
+Number of always :                     1
+Number of flip-flop candidates:        2
+Number of synchronous flops inferred:  2
+Number of Asynchronous flops inferred: 0
