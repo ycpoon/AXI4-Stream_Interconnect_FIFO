@@ -1,7 +1,7 @@
 # AXI4-Stream Interconnect FIFO
 
 This AXI4-Stream Interconnect FIFO IP manages traffic on AXI4-Stream interfaces where it allows multiple AXI masters connect to multiple AXI slaves. It uses the TDEST signal to
-route masters to slaves. This IP Core uses a MSB-LSB alternating priority selector for its arbitration logic when multiple slaves are writing into one slave. Each slave has one FIFO buffer
+route masters to slaves. This IP Core uses a MSB-LSB alternating priority selector for its arbitration logic when multiple masters are writing into one slave. Each slave has one FIFO buffer
 while slave port read from for data in queue writing to the slave, backpressuring logic is implemented as well in the FIFO. 
 
 Note: Slave Interfaces in this context refers to the input interface of the interconnect (connected to the master ports, Master Interface refers to the output interface (connected to the slave ports)
